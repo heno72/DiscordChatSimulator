@@ -95,7 +95,7 @@ def save_images(lines, init_time, dt=30):
                               name = current_name,
                               time = f'{current_time.hour % 12}:{current_time.minute}',
                               profpic_file = f'profile_pictures/{profile_pic_dict[current_name]}')
-        image.save(f'chat\\{msg_number:03d}{current_name[0]}.png')
+        image.save(f'chat/{msg_number:03d}{current_name[0]}.png')
         # update time and msg_number for saving
         current_time+=datetime.timedelta(0,dt)
         msg_number+=1
