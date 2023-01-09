@@ -4,5 +4,6 @@
 *.jpg
 *.JPG
 *.ipynb
+*.json
 chat/
 scripts/
